@@ -2,9 +2,6 @@ import { useEffect } from 'react';
 import { ReactMediaRecorder } from 'react-media-recorder';
 
 function App() {
-
-  
-
   return (
     <ReactMediaRecorder
       
