@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Sonura
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setting up the code on your local machine
 
-## Available Scripts
+1. Create a new folder named Sonura on your computer. This will be your project folder--it can be located whereever you want. I created mine in a folder called Code on my Desktop.
 
-In the project directory, you can run:
+2. Open your terminal and switch into this folder using the ```cd your/path/to/Sonura``` command. For me, it was ```cd Desktop/Code/Sonura``` (since this is where I created that folder).
 
-### `npm start`
+3. Run the command ```git clone https://github.com/cbhanson/sonura-app.git```. This will copy all of the code from the repository into your Sonura folder. All of this code is located under a new folder called sonura-app, so once this is done, run ```cd sonura-app```. This directory is where you will run all of the code from.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Run the command ```npm install```. This will install a bunch of dependencies that the code needs to run on your computer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Starting the app
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Simply run ```npm start``` to bootstrap and run the app. This will open the app in your default browser. If for some reason the audio recording doesn't work on chrome (which was the case for me), install firefox and then run this command: ```BROWSER=firefox npm start```
